@@ -4,11 +4,14 @@ In this short project we are going to apply Logistic Regression model with full 
 ## Project details
 Suppose that you are the administrator of a university department and you want to determine each applicant’s chance of admission based on their results on two exams.
 
--You have historical data from previous applicants that you can use as a training set for logistic regression.
--For each training example, you have the applicant’s scores on two exams and the admissions decision.
--The task is to build a classification model that estimates an applicant’s probability of admission based on the scores from those two exams.
-- y=1 means the student was admitted.
-- y=0 means the student was not admitted.
+<ul>
+<li>You have historical data from previous applicants that you can use as a training set for logistic regression.</li>
+<li>For each training example, you have the applicant’s scores on two exams and the admissions decision.</li>
+<li>The task is to build a classification model that estimates an applicant’s probability of admission based on the scores from those two exams.</li>
+<li>y=1 means the student was admitted.</li>
+<li>y=0 means the student was not admitted.</li>
+</ul>
+
 
 ## Getting Started
 
@@ -19,7 +22,7 @@ Suppose that you are the administrator of a university department and you want t
 > [matplotlib.pyplot](https://matplotlib.org/) 
 
 ## Result
-The blue line has been fitted into the stats by using Linear Regression method in this project.<br/>
-You can find the scripts [here](https://github.com/HadisAB/Supervised-Machine-learning---Linear-Regression---Coursera/blob/main/Codes/LinearRegression_RestaurantProfits.py).
+The blue line clarifies the decision boundary earned by logistic Regression and 92% accuracy.<br/>
+You can find the scripts [here](https://github.com/HadisAB/Supervised-Linear-Regression---Logistic-Regression---University-admission/blob/main/LogisticRegression_University.py).
 
-<img src=https://github.com/HadisAB/Supervised-Machine-learning---Linear-Regression---Coursera/blob/main/Codes/Predicted_model.jpg />
+<img src=https://github.com/HadisAB/Supervised-Linear-Regression---Logistic-Regression---University-admission/blob/main/LogisticReg_UniversityAdmission.jpg />
